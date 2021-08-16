@@ -1,0 +1,22 @@
+span a{
+    text-decoration: none;
+}
+
+iframe{
+width: 100%;
+height: 350px;
+}
+.container-grid-sintomas{
+    display: grid;
+    row-gap: 1px;
+}
+@media(min-width:768px){
+    iframe{
+        width: 100%;
+        height: 500px;
+        }
+    .container-grid-sintomas{
+        grid-template-columns: repeat(2, 1fr);
+    }
+        
+}

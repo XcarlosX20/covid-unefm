@@ -1,0 +1,11 @@
+.container-grid-transmision{
+    display: grid;
+    row-gap: 8px;
+}
+@media (min-width:768px){
+    .container-grid-transmision{
+        padding: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1.5rem;
+    }
+}

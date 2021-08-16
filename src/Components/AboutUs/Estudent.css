@@ -1,0 +1,15 @@
+.card{
+    padding-top: 1.5rem !important;
+}
+.grid{
+    display: grid;
+}
+.grid img{
+    justify-content: center;
+    align-self: center;
+}
+@media (min-width: 768px){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

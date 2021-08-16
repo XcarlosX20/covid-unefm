@@ -1,0 +1,62 @@
+nav .nav a{
+    z-index: 1;
+    color: white;
+    letter-spacing: 2px;
+}
+nav .nav a:hover{
+    transition: ease .3s;
+    transform: scale(1.07);
+}
+nav{
+    padding: 1rem;
+    border-bottom: rgba(204, 204, 204, 0.712) 1px solid;
+  }
+  nav .nav{
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #70C1B3;
+    border-top: 3px solid #FFE066;
+    border-bottom: none;
+    position: relative;
+    background-size: cover;
+  }
+  nav .nav:last-child{
+      border-bottom:  3px solid #FFE066;
+  }
+  nav .transmision{
+      background-image: url("https://res.cloudinary.com/do5yybhwe/image/upload/v1620066447/UNEFM/wash_alioti.jpg");
+  }
+  nav .variante{
+    background-image: url("https://res.cloudinary.com/do5yybhwe/image/upload/v1620066454/UNEFM/flu-g822cc5f36_1280-min_dgr7tw.png");
+  }
+  nav .tratamientos{
+    background-image: url("https://res.cloudinary.com/do5yybhwe/image/upload/v1620066468/UNEFM/child-g359e8f1cb_1280_bppxji.jpg");
+  }
+  nav .sintomas{
+      background-image: url("https://res.cloudinary.com/do5yybhwe/image/upload/v1620066463/UNEFM/sintomas_chkqjc.jpg");
+  }
+  nav .nav::after{
+      content:'';
+      position: absolute;
+      background-color: rgb(0, 0, 0, .5);
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+  }
+  @media (min-width:768px){
+    nav .nav{
+        min-height: 12rem;
+        border-left: #FFE066 5px solid ;
+        border-right: none;
+        border-top: none;
+    }
+    nav .nav:last-child{
+        border-right: #FFE066 5px solid;
+        border-bottom: none;
+        border-top: none;
+      }
+  }
